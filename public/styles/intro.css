@@ -1,0 +1,53 @@
+/* body y "*" Estos estilos aseguran que todos los elementos tengan un modelo de caja consistente y eliminan los márgenes y rellenos por defecto. */
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    margin: 0 150px; 
+    padding: 0;
+}
+
+main {
+    background-color: #EDE8DB;
+}
+
+
+/* Tarjetas resumen ventas */
+.sales-log {
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 0 140px 20px 140px;
+    border: none;
+}
+
+dt {
+    margin: 60px 0 20px 140px;
+    font-size: 20px;
+}
+
+article {
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sales-description {
+    margin: 25px 0;
+}
+
+.product-sales-img {
+    border-radius: 0 10px 10px 0;
+    width: 22em;
+    object-fit: cover;
+}
+
+.client-sales-img {
+    border-radius: 50%;
+    min-height: fit-content;
+    border: 3px solid #F3B411;
+    margin: auto 40px;
+}
