@@ -24,19 +24,33 @@ main {
     border: none;
 }
 
-dt {
+.dt-title {
     margin: 60px 0 20px 140px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 500;
 }
 
 article {
     margin-right: 250px;
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+.sales-date {
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 15px;
 }
 
 .sales-description {
-    margin: 25px 0;
+    margin: 20px 0;
+    font-size: 13.5px;
+    font-family: "Inter";
+    font-weight: 500;
 }
 
 .product-sales-img {
@@ -50,4 +64,38 @@ article {
     min-height: fit-content;
     border: 3px solid #F3B411;
     margin: auto 40px;
+}
+
+/*  Botones de Resumen ventas  */
+
+.more-pages-buttons {
+    justify-self: center;
+    text-align: center;
+}
+
+#sales-button {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 5%;
+    font-family: "Inter";
+    font-size: 18px;
+    border: none;
+    height: 35px;
+    width: 35px;
+    margin: 40px 5px 70px 5px;
+    #sales-button-img {
+        width: 100%;
+    }
+}
+
+#first-sales-button {
+    background-color: #929DAD;
+    border-radius: 50%;
+    width: 5%;
+    font-family: "Inter";
+    font-size: 18px;
+    border: none;
+    height: 35px;
+    width: 35px;
+    margin: 40px 5px 70px 5px;
 }
